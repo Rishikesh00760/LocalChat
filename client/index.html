@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalChat</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <nav>LocalChat</nav>
+
+        <div class="messages" id="messages"></div>
+
+        <div class="form-control">
+            <input type="text" name="msg" id="msg" class="msg">
+            <button type="submit" id="send">Send</button>
+        </div>
+    </div>
+
+    <script src="./lib/socket.io.js"></script>
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

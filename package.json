@@ -1,0 +1,24 @@
+{
+  "name": "localchat",
+  "version": "1.0.0",
+  "description": "An text based local chat application to communicate in local network",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "chat",
+    "text-based",
+    "lan"
+  ],
+  "author": "Rishikesh",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}

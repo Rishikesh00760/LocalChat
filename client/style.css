@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Regular', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #111;
+    font-size: xx-large;
+    color: white;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.messages {
+    flex: 1;
+    width: 100%;
+    color: white;
+    overflow-y: auto;
+}
+.msgcont-r {
+    padding: 10px;
+    text-align: left;
+}
+.msgcont-s {
+    padding: 10px;
+    text-align: right;
+}
+.msgbox-r {
+    padding: 10px;
+    background-color: #444;
+    display: flex inline;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.msgbox-s {
+    background-color: #333;
+    padding: 10px;
+    display: flex inline;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.senderip {
+    width: 300px;
+    font-size: smaller;
+    color: royalblue;
+    font-weight: bold;
+    max-width: 350px;
+}
+.you {
+    width: 300px;
+    font-size: smaller;
+    font-weight: bold;
+    color: steelblue;
+    max-width: 350px;
+}
+.sendermsg {
+    color: teal;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+.yourmsg {
+    color: olive;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-top: 1px solid gray;
+    background-color: #111;
+}
+.msg {
+    flex: 1;
+    background-color: black;
+    border: none;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    width: 100%;
+    color: white;
+}
+input:focus {
+    outline: none;
+}
+button {
+    padding: 8px;
+    font-size: larger;
+    text-align: center;
+    width: 100px;
+    border: none;
+    background-color: rgb(41, 41, 41);
+    background-blend-mode: darken;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+}
+button:hover {
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+}
+button:active {
+    background-color: rgb(49, 49, 49);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: black; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
